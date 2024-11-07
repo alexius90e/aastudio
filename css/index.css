@@ -1,6 +1,15 @@
+@font-face {
+  font-family: "Cygre";
+  src: url("../fonts/cygre.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Uncage";
+  font-weight: 700;
+  src: url("../fonts/uncage.ttf") format("truetype");
+}
 html {
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cygre", sans-serif;
   font-weight: 400;
   font-style: normal;
   scroll-behavior: smooth;
@@ -19,7 +28,7 @@ a,
 button,
 input,
 textarea {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cygre", sans-serif;
   text-decoration: none;
 }
 
