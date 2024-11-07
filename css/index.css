@@ -1,5 +1,6 @@
 @font-face {
   font-family: "Cygre";
+  font-weight: 400;
   src: url("../fonts/cygre.ttf") format("truetype");
 }
 @font-face {
@@ -42,9 +43,9 @@ img {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1220px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
   box-sizing: border-box;
 }
